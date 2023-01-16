@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "ce72a020-b5a6-48c9-99ac-6d4d0940c5ea",
+		"name": "oreelPHP_POST_method",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "MobilePost Mothod",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"user-agent": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmNTliOWI0MTM4ODNiMjlmYzM4MzA0ZSIsImVtYWlsIjoidGVzdHVzZXJAZ21haWwuY29tIiwiaWF0IjoxNTk5NzE2MzEwfQ.mqLGgm7rFBAwTz2BQKpFHvnHTAlalLgoILBdzBXpNC4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "shop_Id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "comment",
+							"value": "Tsting ",
+							"type": "text"
+						},
+						{
+							"key": "rating",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "CName",
+							"value": "Testing",
+							"type": "text"
+						},
+						{
+							"key": "CCountry",
+							"value": "Mexico",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://api.buylands.lk/oreelPHP.php",
+					"protocol": "http",
+					"host": [
+						"api",
+						"buylands",
+						"lk"
+					],
+					"path": [
+						"oreelPHP.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,2 @@
+1   QR Code scan value is 1
+2   QR Code scan value is 2.......like this
